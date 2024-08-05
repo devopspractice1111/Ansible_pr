@@ -6,6 +6,6 @@
     Trainer: "Sreekanth"
   tasks:
   - name: check variable
-  ansible.builtin.debug:
+    ansible.builtin.debug:
   msg: "hello i am {{Trainer}} teach {{Course}} {{Trainer}}"
   
